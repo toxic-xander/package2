@@ -1,9 +1,20 @@
-#SwiftUICentered
+# SwiftUICentered
 
-##Installation
+## Installation
 
 to install do xyz
 
-##Usage example
+## Usage example
 
-zxcvvbb 
+```swift
+    public func centerHorizontally() -> some View  {
+        HStack {
+            Spacer()
+            
+            self
+            
+            Spacer()
+        }
+    }
+ 
+```
